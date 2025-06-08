@@ -4,10 +4,8 @@ const cors = require("cors")
 const app = express()
 
 app.use(cors({
-  origin: 'http://localhost:5173',  // Your React frontend URL
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization'], // headers you expect from client
-}))
+  origin: 'https://login-app-new.onrender.com',  // your frontend URL here
+}));
 
 app.use(express.json())
 
