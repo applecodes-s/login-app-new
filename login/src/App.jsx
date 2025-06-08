@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Login from './Login'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Dashboard from "./pages/Dashboard";
+import Dashboard from "./pages/dashboard";
 import LoginFailed from './LoginFailed';
 
 function App() {
