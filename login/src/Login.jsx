@@ -20,7 +20,7 @@ const Login = () => {
     }
 
     try {
-      const response = await axios.post("http://localhost:3000/api/login", {email, password})
+      const response = await axios.post("https://login-app-new-backend.onrender.com/api/login", { email, password });
 
       if (response.data.success) {
         navigate("/dashboard")
